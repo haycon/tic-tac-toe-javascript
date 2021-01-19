@@ -4,8 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Play a game</h1>
+    <h1>Tic Tac Toe</h1>
+
+    <div id="tableOfPlayers">
+      <h4 id="nameOfPlayers">Players:</h3>
+      <p id="turn"></p>
+    </div>
+
+    <div id="players">
+      <div class="player">
+        <h3>Enter name for player 1:</h3>
+        <input id="player1Name" type="text" />
+        <button id="go1">Submit</button>
+      </div>
+      <div class="player">
+        <h3>Enter name for player 2:</h3>
+        <input id="player2Name" type="text" />
+        <button id="go2">Submit</button>
+      </div>
+    </div>
+
+    <div class="game-board">
+
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

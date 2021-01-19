@@ -1,1 +1,50 @@
+body {
+  font-family: sans-serif;
+}
 
+h1 {
+  text-align: center;
+}
+
+.game-board {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #092b4e;
+  color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  border: 6px solid black;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tableOfPlayers {
+  width: 300px;
+  float: right;
+  border: 1px solid black;
+  margin-right: 50px;
+  padding-left: 10px;
+}
+
+#players {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#turn {
+  text-align: center;
+}
+
+.player {
+  margin: 50px;
+}
